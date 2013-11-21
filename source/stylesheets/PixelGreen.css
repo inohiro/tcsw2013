@@ -20,7 +20,7 @@ body {
 	margin: 0; 	padding: 0;
 	font: normal 73%/1.6em 'Trebuchet MS', Tahoma, sans-serif;
 	color: #555;
-	background: #FFF url(bg.jpg) repeat-x;
+	background: #FFF url("../images/bg.jpg") repeat-x;
 	text-align: center;		
 }
 
@@ -149,7 +149,7 @@ textarea {
 input.button { 
 	margin: 0; 
 	font: bold 1em Arial, Sans-serif; 
-	background: #FFF url(gradientbg.jpg) repeat-x; 
+	background: #FFF url("../images/gradientbg.jpg") repeat-x; 
 	padding: 2px 3px; 
 	color: #333;	
 	border: 1px solid #DADADA;	
@@ -256,7 +256,7 @@ input.button {
 	width: 770px;
 	height: 200px;
 	padding: 15px 10px 10px 10px; 
-	background: #FFF url(headerphoto.jpg) no-repeat center;	
+	background: #FFF url("../images/headerphoto.jpg") no-repeat center;	
 }
 
 /* content */
@@ -330,12 +330,12 @@ input.button {
 	font: normal 1.8em 'Trebuchet MS', Tahoma, Sans-serif;
 }
 #main ul li {
-	list-style-image: url(bullet.gif);
+	list-style-image: url("../images/bullet.gif");
 }
 
 .post {
 	margin: 0; padding: 0;
-	background: #FFF url(gradientbg.jpg) repeat-x;
+	background: #FFF url("../images/gradientbg.jpg") repeat-x;
 	border: 1px solid #EFEDED;
 }
 .post .post-footer {
@@ -345,15 +345,15 @@ input.button {
 	font-size: 95%;
 }
 .post .post-footer .date {
-	background: url('clock.gif') no-repeat 0 center;
+	background: url("../images/clock.gif") no-repeat 0 center;
 	padding-left: 20px; margin: 0 10px 0 5px;
 }
 .post .post-footer .comments {
-	background: url('comment.gif') no-repeat 0 center;
+	background: url("../images/comment.gif") no-repeat 0 center;
 	padding-left: 20px; margin: 0 10px 0 5px;
 }
 .post .post-footer .readmore {
-	background: url('page.gif') no-repeat 0 center;
+	background: url("../images/page.gif") no-repeat 0 center;
 	padding-left: 20px; margin: 0 10px 0 5px;
 }
 
