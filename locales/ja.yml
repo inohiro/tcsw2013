@@ -3,6 +3,8 @@ ja:
   title: "TCSW2013"
   slogan: "第1回 筑波計算機科学ワークショップ / "
   date: "2013年12月17日"
+  time: "9:00-17:00"
+  location: "筑波大学 総合研究棟B 0110（1階）"
   footer:
     copyright: "筑波大学大学院 システム情報工学研究科 コンピュータサイエンス専攻"
   link:
@@ -15,5 +17,12 @@ ja:
     program: "プログラム"
     registration: "聴講登録"
     accommodation: "宿泊"
+  content:
+    datetitle: "開催日"
+  program:
+    th:
+      time: "時刻"
+      title: "講演内容"
+      speaker: "講演者"
   about_tcsw: "TCSW (Tsukuba CS Workshop) は，CS専攻の学生が主体となって運用されるワークショップです．あああ"
 

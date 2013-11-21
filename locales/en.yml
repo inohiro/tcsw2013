@@ -3,6 +3,8 @@ en:
   title: "TCSW2013"
   slogan: "The 1st Tsukuba Computer Science Workshop."
   date: "17th, December, 2013."
+  time: "9:00-17:00"
+  location: "Lab. of Advanced Research, 0110 (1st floor)."
   footer:
     copyright: "Department of Computer Science, Graduate School of Systems and Information Engineering, University of Tsukuba."
   link:
@@ -15,5 +17,21 @@ en:
     program: "Program"
     registration: "Audience Registration"
     accommodation: "Accommodation"
+  content:
+    datetitle: "Date"
+  program:
+    th:
+      time: "Time"
+      title: "Title"
+      speaker: "Speaker"
+    time:
+      s1: "9:00-10:00"
+      s2: "10:00-12:00"
+      s3: ""
   about_tcsw: "TCSW (Tsukuba CS Workshop) is a workshop which organized by students mainly. blablabla"
+  speaker:
+    n1:
+      name: "Hiroyuki Inoue"
+      affil: "University of Tsukuba"
+      title: "An ETL Framework for Online Analytical Processing of LOD"
 
