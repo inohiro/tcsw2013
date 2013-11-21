@@ -1,3 +1,16 @@
 ---
 en:
-  hello: "Hello"
+  footer:
+    copyright: "Department of Computer Science, Graduate School of Systems and Information Engineering, University of Tsukuba."
+  link:
+    top: "Top"
+    org: "Organization"
+    lang: "日本語"
+    langpath: "/ja"
+    about: "About TCSW"
+    access: "Access"
+    program: "Program"
+    registration: "Audience Registration"
+    accommodation: "Accommodation"
+  about_tcsw: "TCSW (Tsukuba CS Workshop) is a workshop which organized by students mainly. blablabla"
+

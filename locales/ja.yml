@@ -1,3 +1,16 @@
 ---
 ja:
-  hello: "こんにちは"
+  footer:
+    copyright: "筑波大学大学院 システム情報工学研究科 コンピュータサイエンス専攻"
+  link:
+    top: "トップ"
+    org: "オーガナイザ"
+    lang: "English"
+    langpath: "/"
+    about: "TCSWについて"
+    access: "アクセス"
+    program: "プログラム"
+    registration: "聴講登録"
+    accommodation: "宿泊"
+  about_tcsw: "TCSW (Tsukuba CS Workshop) は，CS専攻の学生が主体となって運用されるワークショップです．あああ"
+

@@ -211,7 +211,7 @@ input.button {
 }
 #header-content #slogan {
 	position: absolute;	
-	font: bold 12px 'Trebuchet Ms', Sans-serif;
+	font: bold 20px 'Trebuchet Ms', Sans-serif;
 	text-transform: none;
 	color: #FFF;	
 	margin: 0; padding: 0;
@@ -301,6 +301,7 @@ input.button {
 	padding: 0px 10px;
 }
 #sidebar ul.sidemenu a {
+        font-size: 12pt;
 	display:block;
 	font-weight:normal;
 	color: #333;
