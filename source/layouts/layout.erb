@@ -23,8 +23,13 @@
         <div id="header-content">
           <h1 id="logo"><%= link_to t('title'), 'index.html' %></h1>
 	  <h2 id="slogan"><%= t('slogan') %>&nbsp;<%= t('date') %></h2>
-          <ul>
-            <li><%= link_to t('link.lang'), set_prefix( t('link.langpath') ) %></li>
+	  <ul>
+	    <% splitted = current_page.path.split( /\// ) %>
+	    <% if splitted.include?( 'ja' ) %>
+	      <li><%= link_to t('link.lang'), set_prefix( File.join( t('link.langpath' ), splitted.reject! {|p| p == "ja" }.join('/') ) ) %>
+	    <% else %>
+              <li><%= link_to t('link.lang'), set_prefix( File.join( t('link.langpath'), current_page.url ) ) %></li>
+	    <% end %>
           </ul>
         </div>
       </div>
@@ -36,7 +41,6 @@
         <div id="content">
 	  <div id="sidebar" >
 	    <div class="sidebox">
-	      <!-- <h1 class="clear">Sidebar Menu</h1>-->
 	      <ul class="sidemenu">
                 <li><%= link_to t('link.top'), 'index.html', {:class=>"top"} %></li>
                 <li><%= link_to t('link.program'), 'program.html' %></li>
@@ -49,6 +53,14 @@
 	    <div class="sidebox">
 	      <h1><%= t('link.about') %></h1>
               <p><%= t('about_tcsw') %></p>
+	    </div>
+
+	    <div class="sidebox">
+	      <h1 class="clear"><%= t('link.links') %></h1>
+	      <ul class="sidemenu">
+		<li><%= link_to t('link.utkb'), 'http://www.tsukuba.ac.jp/', { :target => '_blank' } %></li>
+		<li><%= link_to t('link.csd'), 'http://www.cs.tsukuba.ac.jp/', { :style=>'font-size:small;', :target => '_blank' } %></li>
+	      </ul>
 	    </div>
 
 	  </div>
@@ -64,60 +76,11 @@
       <!-- footer starts here -->
       <div id="footer">
         <div id="footer-content">
-<!--
-	  <div class="col float-left space-sep">
-	    <h1>Site Partners</h1>
-	    <ul class="flist">
-              <li><a href="http://www.dreamtemplate.com" title="Website Templates">DreamTemplate</a></li>
-              <li><a href="http://www.themelayouts.com" title="WordPress Themes">ThemeLayouts</a></li>
-              <li><a href="http://www.imhosted.com" title="Website Hosting">ImHosted.com</a></li>
-              <li><a href="http://www.dreamstock.com" title="Stock Photos">DreamStock</a></li>
-              <li><a href="http://www.evrsoft.com" title="Website Builder">Evrsoft</a></li>
-              <li><a href="http://www.webhostingwp.com" title="Web Hosting">Web Hosting</a></li>
-	    </ul>
-	  </div>
--->
-
           <div>
             <p>&copy; 2013 <%= t('footer.copyright') %><br />
 	      <a href="http://www.bluewebtemplates.com/" title="Website Templates">website templates</a> by <a href="http://www.styleshout.com/">styleshout</a>
 	    </p>
           </div>
-
-<!--
-	<div class="col float-left">
-	  <h1>Links</h1>
-	  <ul class="flist">
-            <li><a href="index.html">Link One</a></li>
-	    <li><a href="index.html">Link Two</a></li>
-	    <li><a href="index.html">Link Three</a></li>
-	    <li><a href="index.html">Link Four</a></li>
-	    <li><a href="index.html">Link Five</a></li>
-            <li><a href="index.html">Link Six</a></li>
-	  </ul>
-        </div>
--->
-<!--
-	<div class="col2 float-right">
-          <p>&copy; 2013 Department of Computer Science, University of Tsukuba.<br />
-	    <a href="http://www.bluewebtemplates.com/" title="Website Templates">website templates</a> by <a href="http://www.styleshout.com/">styleshout</a>
-	  </p>
-	</div>
-
-	<div class="col2 float-right">
-          <h1>Site Links</h1>
-	  <ul class="flist">
-	    <li class="top"><a href="index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-	    <li><a href="index.html">Sitemap</a></li>
-	    <li><a href="index.html">RSS Feed</a></li>
-	  </ul>
-
-          <p>&copy; 2013 Department of Computer Science, University of Tsukuba.<br />
-	    <a href="http://www.bluewebtemplates.com/" title="Website Templates">website templates</a> by <a href="http://www.styleshout.com/">styleshout</a>
-	  </p>
-	</div>
--->
         </div>
       </div>
       <!-- footer ends here -->

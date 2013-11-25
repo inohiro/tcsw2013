@@ -17,6 +17,10 @@ en:
     program: "Program"
     registration: "Audience Registration"
     accommodation: "Accommodation"
+    utkb: "University of Tsukuba"
+    sit: "Graduate School of Systems and Information Engineering"
+    csd: "Dept. of Computer Science"
+    links: "Links"
   top:
     abstract: "TCSW2013 is an international workshop organized by the graduate students of the Computer Science Department of University of Tsukuba, with the support of the university fund for innovative education. It aims to share various problems and ideas in human centric computing and technology related to big data. An additional aim of TCSW is to encourage interactions among the participants: the graduate students of the CS Department, invited speakers and Postdoc researchers from various Universities."
     theme: "Theme of TCSW 2013 is \"Human centric computing and related technology of big dat\"."

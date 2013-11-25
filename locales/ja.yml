@@ -17,6 +17,10 @@ ja:
     program: "プログラム"
     registration: "聴講登録"
     accommodation: "宿泊"
+    utkb: "筑波大学"
+    sie: "システム情報工学研究科"
+    csd: "コンピュータサイエンス専攻"
+    links: "リンク"
   top:
     abstract: "TCS2013 は筑波大学CS専攻の学生が主体となってオーガナイズする国際ワークショップであり，大学本部（革新的教育支援プログラム）の支援を受けています．ヒューマンセントリックコンピューティング，ビッグデータ関連技術における様々な問題やそれに対するアイデアを広く共有することを目的としています．さらに，TCSW2013では，本学CS専攻の学生，招待講演者，他大学からの大学院生，およびポスドク研究者間の交流を促進することもねらいの一つです．"
     theme: "TCSW2013のテーマは \"Human centric computing and relted technology of
@@ -24,6 +28,8 @@ big data\" です．"
   content:
     datetitle: "開催日"
   program:
+    title:
+      invited: "招待講演者"
     th:
       time: "時刻"
       title: "講演内容"
