@@ -28,7 +28,7 @@
 	  <h2 id="slogan"><%= t('slogan') %>&nbsp;<%= t('date') %></h2>
 
           <ul>
-            <li><%= link_to t('link.lang'), t('link.langpath') %></li>
+            <li><%= link_to t('link.lang'), set_prefix( t('link.langpath') ) %></li>
           </ul>
         </div>
       </div>
@@ -46,7 +46,7 @@
                 <li><%= link_to t('link.program'), 'program.html' %></li>
                 <li><%= link_to t('link.registration'), '#' %></li>
                 <li><%= link_to t('link.access'), 'access.html' %></li>
-                <li><%= link_to t('link.accommodation'), 'accommodation.html' %></li>
+                <%# <li><%= link_to t('link.accommodation'), 'accommodation.html' %></li>
                 <%# <li><%= link_to t('link.about'), 'about.html' %></li>
                 <li><%= link_to t('link.org'), 'org.html' %></li>
                 <%# <li><%= link_to t('link.lang'), t('link.langpath') %></li>

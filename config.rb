@@ -51,6 +51,11 @@ set :images_dir, 'images'
 
 activate :i18n
 
+  helpers do
+    def set_prefix( path )
+      path
+    end
+  end
 
 # Build-specific configuration
 configure :build do
@@ -66,6 +71,14 @@ configure :build do
   # Use relative URLs
   # activate :relative_assets
 
+  PREFIX = "/~inohiro/tcsw2013/"
+
   # Or use a different image path
-  # set :http_prefix, "/Content/images/"
+  set :http_prefix, PREFIX
+
+  helpers do
+    def set_prefix( path )
+      File.join( PREFIX, path )
+    end
+  end
 end
