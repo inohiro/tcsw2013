@@ -13,7 +13,7 @@ title: Program
   <% data.speakers.each do |type,speaker| %>
     <ul>
       <li>
-	Mr. <%= speaker.name %>
+	<%= speaker.prefix %>&nbsp;<%= speaker.name %>
 	<ul>
 	  <li><%= speaker.position %> at <%= speaker.affiliation %></li>
 	  <li>
