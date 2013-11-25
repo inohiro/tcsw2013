@@ -5,13 +5,10 @@
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-
     <meta name="Description" content="Information architecture, Web Design, Web Standards." />
     <meta name="Keywords" content="your, keywords" />
-    <!-- <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> -->
     <meta name="Distribution" content="Global" />
-    <meta name="Author" content="Erwin Aligam - ealigam@gmail.com" />
-    <meta name="Robots" content="index,follow" />
+    <!-- <meta name="Robots" content="index,follow" /> -->
 
     <%= stylesheet_link_tag "normalize", "PixelGreen" %>
     <%= javascript_include_tag "all" %>
@@ -26,7 +23,6 @@
         <div id="header-content">
           <h1 id="logo"><%= link_to t('title'), 'index.html' %></h1>
 	  <h2 id="slogan"><%= t('slogan') %>&nbsp;<%= t('date') %></h2>
-
           <ul>
             <li><%= link_to t('link.lang'), set_prefix( t('link.langpath') ) %></li>
           </ul>
@@ -44,12 +40,9 @@
 	      <ul class="sidemenu">
                 <li><%= link_to t('link.top'), 'index.html', {:class=>"top"} %></li>
                 <li><%= link_to t('link.program'), 'program.html' %></li>
-                <li><%= link_to t('link.registration'), '#' %></li>
+                <li><%= link_to t('link.registration'), 'https://docs.google.com/forms/d/1rQHFUS7zrWN3Q-13oMUPo4hXnIm0LkBksKZ6EEkLaXA/viewform', { :target=>'_blank' } %></li>
                 <li><%= link_to t('link.access'), 'access.html' %></li>
-                <%# <li><%= link_to t('link.accommodation'), 'accommodation.html' %></li>
-                <%# <li><%= link_to t('link.about'), 'about.html' %></li>
                 <li><%= link_to t('link.org'), 'org.html' %></li>
-                <%# <li><%= link_to t('link.lang'), t('link.langpath') %></li>
 	      </ul>
 	    </div>
 
