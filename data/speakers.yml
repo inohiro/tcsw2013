@@ -1,133 +1,56 @@
 ---
 invited1:
-  en:
-    title: "Hello, World"
-    name: "Hiroyuki Inoue"
-    position: "Graduate Student"
-    affil: "Iniversity of Tsukuba"
-  ja:
-    title: "こんにちは，世界"
-    name: "井上 寛之"
-    position: "博士前期課程"
-    affiliation: "筑波大学大学院"
+  name: "Zhiwei Zhang"
+  position: "PhD student"
+  affiliation: "The Chinese University of Hong Kong"
+  keywords:
+    - "Keyword search in databases"
+    - "Graph database"
+    - "Graph Mining"
+    - "Social Networks"
+    - "Web-technology"
+    - "Query Processing and Query Optimization"
 invited2:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
+  name: "Yang Wu"
+  position: "PostDoc researcher"
+  affiliation: "Kyoto University"
+  keywords:
+    - "Computer vision and Pattern recognition"
+    - "Detection, trcking and recognition of humans and also generic objects"
+    - "Image/Video search and retrieval"
+    - "Machine learning techniques"
 invited3:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
+  name: "Rong-Hao LIANG"
+  position: "PhD student"
+  affiliation: "National Taiwan University"
+  keywords:
+    - "Human-Computer interaction"
+    - "Magnetic object tracking"
 invited4:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
+  name: "Kohei Hayashi"
+  position: "PostDoc researcher"
+  affiliation: "National Institute of Informatics"
+  keywords:
+    - "Model-based analysis of dynamic graphs and tensor"
+    - "Bayesian inference and information criterion for model selection"
+    - "Online learning algorithms and parallel computing for large-slace sparse data"
 invited5:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
+  name: "Chuang XIAO"
+  position: "PostDoc researcher"
+  affiliation: "Nagoya University"
+  keywords:
+    - "Similarity search"
+    - "Data cleaning and data integration"
+    - "Uncertain data management"
+    - "Textual, graph, and spatio-temporal databases"
 invited6:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-internal1:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-invited2:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-invited3:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-invited4:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-invited5:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-invited6:
-  en:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
-  ja:
-    title: ""
-    name: ""
-    position: ""
-    affiliation: ""
+  name: "Volkmar Frinken"
+  position: "PostDoc researcher"
+  affiliation: "Kyushu University"
+  keywords:
+    - "Artificial intelligence"
+    - "Machine learning"
+    - "Document analysis"
+    - "Hidden markov models"
+    - "Neural network"
+

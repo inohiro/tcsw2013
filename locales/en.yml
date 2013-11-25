@@ -2,9 +2,9 @@
 en:
   title: "TCSW2013"
   slogan: "The 1st Tsukuba Computer Science Workshop."
-  date: "17th, December, 2013."
+  date: "Tues., December 17th, 2013."
   time: "9:00-17:00"
-  location: "Lab. of Advanced Research, 0110 (1st floor)."
+  location: "Laboratory of Advanced Research-B 0110"
   footer:
     copyright: "Department of Computer Science, Graduate School of Systems and Information Engineering, University of Tsukuba."
   link:
@@ -22,19 +22,12 @@ en:
     csd: "Dept. of Computer Science"
     links: "Links"
   top:
-    abstract: "TCSW2013 is an international workshop organized by the graduate students of the Computer Science Department of University of Tsukuba, with the support of the university fund for innovative education. It aims to share various problems and ideas in human centric computing and technology related to big data. An additional aim of TCSW is to encourage interactions among the participants: the graduate students of the CS Department, invited speakers and Postdoc researchers from various Universities."
+    abstract: "Tsukuba CS Workshop (TCSW) is an international workshop organized by the graduate students of the Computer Science Department of University of Tsukuba, with the support of the university fund for innovative education. It aims to share various problems and ideas in human centric computing and technology related to big data. An additional aim of TCSW is to encourage interactions among the participants: the graduate students of the CS Department, invited speakers and Postdoc researchers from various Universities."
     theme: "Theme of TCSW 2013 is \"Human centric computing and related technology of big dat\"."
   content:
     datetitle: "Date"
   program:
-    th:
-      time: "Time"
-      title: "Title"
-      speaker: "Speaker"
-    time:
-      s1: "9:00-10:00"
-      s2: "10:00-12:00"
-      s3: ""
+    tbd: "The details of program will be updated later."
   about_tcsw: "TCSW (Tsukuba CS Workshop) is a workshop which organized by students mainly. blablabla"
   speaker:
     n1:

@@ -4,32 +4,29 @@ title: Program
 
 <div>
   <h1><%= t('link.program') %></h1>
+
+  <h3><%= t('program.tbd' ) %></h3>
+  <hr />
+
+  <h2>Invited Speakers</h2>
+
+  <% data.speakers.each do |type,speaker| %>
+    <ul>
+      <li>
+	Mr. <%= speaker.name %>
+	<ul>
+	  <li><%= speaker.position %> at <%= speaker.affiliation %></li>
+	  <li>
+	    Keywords:
+	    <ul>
+	      <% speaker.keywords.each do |keyword| %>
+		<li><%= keyword %></li>
+	      <% end %>
+	    </ul>
+	  </li>
+	</ul>
+      </li>
+    </ul>
+  <% end %>
   
-  <table>
-    <tr>
-      <th class="first"><strong><%= t('program.th.time') %></strong></th>
-      <th><strong><%= t('program.th.title') %></strong></th>
-      <th><strong><%= t('program.th.speaker') %></strong></th>
-    </tr>
-    <tr class="row-a">
-      <td class="first"><%= t('program.time.s1') %></td>
-      <td><a href="#"><%= t('speaker.n1.title') %></a></td>
-      <td><a href="#"><%= t('speaker.n1.name') %> (<%= t('speaker.n1.affil') %>)</a></td>
-    </tr>
-    <tr class="row-b">
-      <td class="first"><%= t('program.time.s1') %></td>
-      <td><a href="#"><%= t('speaker.n1.title') %></a></td>
-      <td><a href="#"><%= t('speaker.n1.name') %> (<%= t('speaker.n1.affil') %>)</a></td>
-    </tr>
-    <tr class="row-a">
-      <td class="first"><%= t('program.time.s1') %></td>
-      <td><a href="#"><%= t('speaker.n1.title') %></a></td>
-      <td><a href="#"><%= t('speaker.n1.name') %> (<%= t('speaker.n1.affil') %>)</a></td>
-    </tr>
-    <tr class="row-b">
-      <td class="first"><%= t('program.time.s1') %></td>
-      <td><a href="#"><%= t('speaker.n1.title') %></a></td>
-      <td><a href="#"><%= t('speaker.n1.name') %> (<%= t('speaker.n1.affil') %>)</a></td>
-    </tr>
-  </table>
 </div>

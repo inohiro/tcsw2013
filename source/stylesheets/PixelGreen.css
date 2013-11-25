@@ -38,8 +38,8 @@ p, h1, h2, h3 {
 	margin: 10px 15px;
 }
 ul, ol {
-	margin: 10px 30px;
-	padding: 0 15px;		
+    margin: 5px 10px 10px 30px;
+    padding: 0 15px;
 }
 
 /* images */
@@ -235,7 +235,7 @@ input.button {
 #header-content li a {
 	float: left;
 	display: block;
-	padding: 3px 12px;	
+	padding: 3px 12px;
 	color: #FFF;
 	background-color: #333;
 	text-decoration: none;
@@ -323,7 +323,7 @@ input.button {
 /* main */
 #main {
 	float: left;
-	width: 68%;	
+	width: 68%;
 	margin: 0 0 10px 0; padding: 0;	
 }
 #main h1 {
