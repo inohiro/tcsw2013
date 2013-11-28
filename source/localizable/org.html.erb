@@ -4,4 +4,9 @@ title: Organization
 
 <div>
   <h1><%= t('link.org') %></h1>
+  <ul>
+    <% data.orgs.each do |org,content| %>
+      <li><%= content.name %> (<%= content.grade %>)</li>
+    <% end %>
+  </ul>
 </div>
