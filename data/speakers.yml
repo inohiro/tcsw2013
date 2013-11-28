@@ -1,6 +1,7 @@
 ---
 invited1:
   name: "Zhiwei Zhang"
+  prefix: "Mr."
   position: "PhD student"
   affiliation: "The Chinese University of Hong Kong"
   keywords:
@@ -12,6 +13,7 @@ invited1:
     - "Query processing and query optimization"
 invited2:
   name: "Yang Wu"
+  prefix: "Dr."
   position: "PostDoc researcher"
   affiliation: "Kyoto University"
   keywords:
@@ -21,6 +23,7 @@ invited2:
     - "Machine learning techniques"
 invited3:
   name: "Rong-Hao LIANG"
+  prefix: "Mr."
   position: "PhD student"
   affiliation: "National Taiwan University"
   keywords:
@@ -28,6 +31,7 @@ invited3:
     - "Magnetic object tracking"
 invited4:
   name: "Kohei Hayashi"
+  prefix: "Dr."
   position: "PostDoc researcher"
   affiliation: "National Institute of Informatics"
   keywords:
@@ -36,6 +40,7 @@ invited4:
     - "Online learning algorithms and parallel computing for large-slace sparse data"
 invited5:
   name: "Chuang XIAO"
+  prefix: "Dr."
   position: "PostDoc researcher"
   affiliation: "Nagoya University"
   keywords:
@@ -45,6 +50,7 @@ invited5:
     - "Textual, graph, and spatio-temporal databases"
 invited6:
   name: "Volkmar Frinken"
+  prefix: "Dr."
   position: "PostDoc researcher"
   affiliation: "Kyushu University"
   keywords:

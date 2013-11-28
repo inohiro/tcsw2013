@@ -51,11 +51,11 @@ set :images_dir, 'images'
 
 activate :i18n
 
-  helpers do
-    def set_prefix( path )
-      path
-    end
+helpers do
+  def set_prefix( path )
+    path
   end
+end
 
 # Build-specific configuration
 configure :build do
@@ -71,7 +71,8 @@ configure :build do
   # Use relative URLs
   # activate :relative_assets
 
-  PREFIX = "/~inohiro/tcsw2013/"
+  PREFIX = "/~inohiro/tcsw2013/" # for KDE/~inohiro
+  # PREFIX = '/tcsw2013/' # for CS Server
 
   # Or use a different image path
   set :http_prefix, PREFIX
