@@ -258,7 +258,8 @@ input.button {
 	height: 250px;
 	padding: 15px 10px 10px 10px; 
 	/* background: #FFF url("../images/headerphoto.jpg") no-repeat center; */
-	background: #FFF url("../images/770_250.jpg") no-repeat center;
+	/* background: #FFF url("../images/770_250.jpg") no-repeat center; */
+	background: #FFF url("../images/ha-pacs.png") no-repeat center;
 }
 
 /* content */
