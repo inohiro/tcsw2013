@@ -1,17 +1,32 @@
 ---
-org1:
-  name: Cheng HAOKAN
-  grade: D2
-org2:
-  name: Chendra Hadi SURYANTO
-  grade: D1
-org3:
-  name: Savong BOU
-  grade: M2
-org4:
-  name: Bernadro Gotta
-  grade: M2
-org5:
-  name: Hiroyuki Inoue
-  grade: M2
+Co-General Chairs:
+  person1:
+    name: Cheng HAOKAN
+    grade: D2
+  person2:
+    name: Chendra Hadi SURYANTO
+    grade: D1
+Session Co-Chairs:
+  person1:
+    name: Savong BOU
+    grade: M2
+  person2:
+    name: Bernadro Gotta
+    grade: M2
+  person3:
+    name: Hiroyuki Inoue
+    grade: M2
+Advisors:
+  person1:
+    name: Kazuhiro Fukui
+    grade: Faculty
+  person2:
+    name: Shin Takahashi
+    grade: Faculty
+  person3:
+    name: Takeshi Yamada
+    grade: Faculty
+  person4:
+    name: Toshiyuki Amagasa
+    grade: Faculty
 

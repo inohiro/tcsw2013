@@ -4,9 +4,12 @@ title: Organization
 
 <div>
   <h1><%= t('link.org') %></h1>
-  <ul>
-    <% data.orgs.each do |org,content| %>
-      <li><%= content.name %> (<%= content.grade %>)</li>
-    <% end %>
-  </ul>
+  <% data.orgs.each do |type,pairs| %>
+    <h2><%= type %></h2>
+    <ul>
+      <% pairs.each do |person,pair| %>
+        <li><%= pair.name %> (<%= pair.grade %>)</li>
+      <% end %>
+    </ul>
+  <% end %>
 </div>
