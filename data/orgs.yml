@@ -20,14 +20,14 @@ Advisors:
   person1:
     name: Kazuhiro Fukui
     grade: Faculty
+  person4:
+    name: Toshiyuki Amagasa
+    grade: Faculty
   person2:
     name: Shin Takahashi
     grade: Faculty
   person3:
     name: Takeshi Yamada
-    grade: Faculty
-  person4:
-    name: Toshiyuki Amagasa
     grade: Faculty
   person5:
     name: Shinichi Yamagiwa
