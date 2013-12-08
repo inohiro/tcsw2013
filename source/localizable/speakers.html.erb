@@ -1,0 +1,41 @@
+---
+title: Speakers
+---
+
+<div>
+  <h1><%= t('link.speakers') %></h1>
+
+  <ul>
+    <% data.speakers.each do |type,speakers| %>
+      <li>
+	<%= type %>
+	<ul>
+	  <% speakers.each do |id, speaker| %>
+	    <li><%= link_to "#{speaker.prefix} #{speaker.name}", "\##{type}_#{id}" %></li>
+	  <% end %>
+	</ul>
+      </li>
+    <% end %>
+  </ul>
+
+  <% data.speakers.each do |type,speakers| %>
+    <% speakers.each do |id, speaker| %>
+      <hr />
+      <a name='<%= "#{type}_#{id}" %>'></a>
+      <h1><%= "#{speaker.prefix} #{speaker.name}" %></h1>
+      <ul>
+	<li><%= speaker.position %> at <%= speaker.affiliation %></li>
+	<li>Title: <b><u><%= speaker.title %></u></b></li>
+	<li>Abst.: <%= speaker.abst %></li>
+	<li>Bio.: <%= speaker.bio %></li>
+	<li>
+	  Keywords:
+	  <ul>
+	    <% speaker.keywords.each do |keyword| %><li><%= keyword %></li><% end %>
+	  </ul>
+	</li>
+      </ul>
+    <% end %>
+  <% end %>
+
+</div>

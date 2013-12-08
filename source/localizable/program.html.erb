@@ -5,28 +5,23 @@ title: Program
 <div>
   <h1><%= t('link.program') %></h1>
 
-  <h3><%= t('program.tbd' ) %></h3>
-  <hr />
-
-  <h2>Invited Speakers</h2>
-
-  <% data.speakers.each do |type,speaker| %>
+  <% data.program.each do |session,talks| %>
+    <h2><%= session %></h2>
     <ul>
-      <li>
-	<%= speaker.prefix %>&nbsp;<%= speaker.name %>
-	<ul>
-	  <li><%= speaker.position %> at <%= speaker.affiliation %></li>
+      <% talks.each do |id,talk| %>
+	<% if talk %>
 	  <li>
-	    Keywords:
+	    <%= talk.time %>
 	    <ul>
-	      <% speaker.keywords.each do |keyword| %>
-		<li><%= keyword %></li>
+	      <li><%= talk.title %> <%= talk.speaker %></li>
+	      <% if talk.speaker %>
+		<li><%= link_to 'speaker and talk info.', set_prefix( talk.url ) %></li>
 	      <% end %>
 	    </ul>
 	  </li>
-	</ul>
-      </li>
+	<% end %>
+      <% end %>
     </ul>
   <% end %>
-  
+
 </div>

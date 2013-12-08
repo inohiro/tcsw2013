@@ -1,63 +1,158 @@
 ---
-invited1:
-  name: "Zhiwei Zhang"
-  prefix: "Mr."
-  position: "PhD student"
-  affiliation: "The Chinese University of Hong Kong"
-  keywords:
-    - "Keyword search in databases"
-    - "Graph database"
-    - "Graph mining"
-    - "Social networks"
-    - "Web-technology"
-    - "Query processing and query optimization"
-invited2:
-  name: "Yang Wu"
-  prefix: "Dr."
-  position: "PostDoc researcher"
-  affiliation: "Kyoto University"
-  keywords:
-    - "Computer vision and Pattern recognition"
-    - "Detection, trcking and recognition of humans and also generic objects"
-    - "Image/Video search and retrieval"
-    - "Machine learning techniques"
-invited3:
-  name: "Rong-Hao LIANG"
-  prefix: "Mr."
-  position: "PhD student"
-  affiliation: "National Taiwan University"
-  keywords:
-    - "Human-Computer interaction"
-    - "Tangible and Wearable Computing"
-    - "Magnetic object tracking"
-invited4:
-  name: "Kohei Hayashi"
-  prefix: "Dr."
-  position: "PostDoc researcher"
-  affiliation: "National Institute of Informatics"
-  keywords:
-    - "Model-based analysis of dynamic graphs and tensor"
-    - "Bayesian inference and information criterion for model selection"
-    - "Online learning algorithms and parallel computing for large-slace sparse data"
-invited5:
-  name: "Chuang XIAO"
-  prefix: "Dr."
-  position: "PostDoc researcher"
-  affiliation: "Nagoya University"
-  keywords:
-    - "Similarity search"
-    - "Data cleaning and data integration"
-    - "Uncertain data management"
-    - "Textual, graph, and spatio-temporal databases"
-invited6:
-  name: "Volkmar Frinken"
-  prefix: "Dr."
-  position: "PostDoc researcher"
-  affiliation: "Kyushu University"
-  keywords:
-    - "Artificial intelligence"
-    - "Machine learning"
-    - "Document analysis"
-    - "Hidden markov models"
-    - "Neural network"
-
+external:
+  speaker1:
+    name: "Zhiwei Zhang"
+    prefix: "Mr."
+    position: "PhD student"
+    affiliation: "The Chinese University of Hong Kong"
+    keywords:
+      - "Keyword search in databases"
+      - "Graph database"
+      - "Graph mining"
+      - "Social networks"
+      - "Web-technology"
+      - "Query processing and query optimization"
+    title: "I/O Efficient: Computing SCCs in Massive Graphs"
+    abst: "A strongly connected component (SCC) is a maximal subgraph of a directed graph G in which every pair of nodes are reachable from each other in
+the SCC. With such a property, a general directed graph can be represented by a directed acyclic graph (DAG) by contracting an SCC of G to a node
+in DAG. In many real applications that need graph pattern matching, topological sorting, or reachability query processing, the best way to deal with
+a general directed graph is to deal with its DAG representation. Therefore, finding all SCCs in a directed graph G is a critical operation. The existing
+in-memory algorithms based on depth first search (DFS) can find all SCCs in linear time w.r.t. the size of a graph. However, when a graph cannot
+resident entirely in the main memory, the existing external or semi-external algorithms to find all SCCs have limitation to achieve high I/O efficiency.
+In this paper, we study new I/O efficient semi-external algorithms to find all SCCs for a massive directed graph G that cannot reside in main memory entirely. To overcome the deficiency of the existing DFS based semi-external algorithm that heavily relies on a total order, we explore a weak order based on which we investigate new algorithms. We propose a new two phase algorithm, namely, tree construction and tree search. In the tree construction phase, a spanning tree of G can be constructed in bounded sequential scans of G. In the tree search phase, it needs to sequentially scan the graph once to find all SCCs. In addition, we propose a new single phase algorithm, which combines the tree construction and tree search phases into a single phase, with three new optimization techniques. They are early acceptance, early rejection, and batch processing. By the single phase algorithm with the new optimization techniques, we can significantly reduce the number of I/Os and CPU cost. We conduct extensive experimental studies using 4 real datasets including a massive real dataset, and several synthetic datasets to confirm the I/O efficiency of our approaches."
+    bio: "Zhiwei Zhang received his B.Eng. in computer science and technology from Renmin University of China in 2010. He is currently a Ph.D student in the Department of System Engineering and Engineering Management, The Chinese University of Hong Kong. His major research interests include large-scale graph query processing and I/O efficient graph algorithms."
+  speaker2:
+    name: "Yang Wu"
+    prefix: "Dr."
+    position: "PostDoc researcher"
+    affiliation: "Kyoto University"
+    keywords:
+      - "Computer vision and Pattern recognition"
+      - "Detection, trcking and recognition of humans and also generic objects"
+      - "Image/Video search and retrieval"
+      - "Machine learning techniques"
+    title: "Collaborative Representation for Person Re-identification"
+    abst: "Person re-identification is currently an active research topic in video surveillance, which targets at unobtrusively identifying people at a distance and across cameras in real-world surveillance scenarios. It covers the ubiquitous cases where face recognition is unreliable or infeasible, and technically it is considered to be more challenging than identification using faces. Despite its tremendous challenges which may look hopeless to many researchers, especially for those who have no experiences on this topic, significant progresses have been made in the past five years, and there is strong sign that the increase of publications on it will greatly speed up in the coming future.
+In this talk, I will first give a very brief overview of the problem itself, the state-of-the-art progresses and research trends of it, based on my 3 years’ research experiences and also the up-to-date books and reviews on this topic. Then, I will introduce my recent contributions, more precisely the collaborative representation based approaches, for solving this problem, which can be very simple, effective, and efficient. I will focus on two representative models which cover both normal person re-identification and transferred re-identification, and have some other extended work briefly mentioned. Finally, I will raise some personal viewpoints, which may be tentative future work, for discussion."
+    bio: "Yang is currently a post-doctoral researcher of Academic Center for Computing and Media Studies, Kyoto University. He received a BS degree in information engineering and a Ph.D degree in pattern recognition and intelligent systems from Xi'an Jiaotong University in 2004 and 2010, respectively. From Sep. 2007 to Dec. 2008, he was a visiting student in the General Robotics, Automation, Sensing and Perception (GRASP) lab at University of Pennsylvania. His research is in the fields of computer vision and pattern recognition, with particular interests in the detection, tracking and recognition of humans and also generic objects. He is also interested in image/video search and retrieval, along with machine learning techniques."
+  speaker3:
+    name: "Rong-Hao LIANG"
+    prefix: "Mr."
+    position: "PhD student"
+    affiliation: "National Taiwan University"
+    keywords:
+      - "Human-Computer interaction"
+      - "Tangible and Wearable Computing"
+      - "Magnetic object tracking"
+    title: "GaussSense: Portable and Occlusion-free Near-surface Object Tracking Using Magnetic Sensor Grid"
+    abst: "In this talk, I introduce our invention of a portable and occlusion-free object tracking method, GaussSense, which is based on the thin-form analog Hall-sensor grid that allows users to attach to the back of portable displays or arbitrary surfaces easily. For starters, I explain the motivations of developing the new sensing technology with a review of prior mobile object tracking approaches. Then, I showcase the applications by demonstrating several research projects: 
+1) GaussSense (ACM UIST 2012): An add-on magnetic stylus sensing system that extends the stylus input space of portable displays.
+2) GaussBits (ACM CHI 2013): A system of magnetic tangible design that enriches tangible interactions on and above portable displays.
+3) FingerPad (ACM UIST 2013): A nail-mounted magnetic sensing device that turns users fingertips into private and rich-haptic 2D touch pads for wearable displays. 
+In conclusion, I highlight the contributions and the potential future research directions of this sensing technology."
+    bio: "Rong-Hao Liang is currently a 3rd-year PhD student of Communications and Multimedia Laboratory in National Taiwan University, Taiwan. He received his M.S. degree in Electrical Engineering from National Taiwan University. His main research interest is on Human-Computer Interaction, with a specific focus on interaction techniques and devices of wearable and tangible user interfaces. He was awarded the 2013 ACM SIGCHI Best Paper Award and the 2012 ACM SIGGRAPH Asia Emerging Technologies Prize."
+  speaker4:
+    name: "Kohei Hayashi"
+    prefix: "Dr."
+    position: "PostDoc researcher"
+    affiliation: "National Institute of Informatics"
+    keywords:
+      - "Model-based analysis of dynamic graphs and tensor"
+      - "Bayesian inference and information criterion for model selection"
+      - "Online learning algorithms and parallel computing for large-slace sparse data"
+    title: "Relational Data Analysis by Tensor Decomposition"
+    abst: "A collection of relationships among aligned multiple objects, for
+example, WWW, social networks, and DNA microarray, are called
+relational data. Generally speaking, the relational data of m-tuples
+are represented by an m-dimensional array or a m-th order tensor,
+while its high dimensionality hinders direct analysis. Tensor
+decomposition is a remedy of this issue, which finds a low-dimensional
+projection that is useful for data compression, feature extraction,
+visualization, and data completion. In this talk, we introduce a few
+basic models of tensor decomposition and several examples of
+real-world application studied in the fields of machine learning and
+data mining."
+    bio: "https://sites.google.com/site/koheihayashi84/"
+  speaker5:
+    name: "Chuang XIAO"
+    prefix: "Dr."
+    position: "PostDoc researcher"
+    affiliation: "Nagoya University"
+    keywords:
+      - "Similarity search"
+      - "Data cleaning and data integration"
+      - "Uncertain data management"
+      - "Textual, graph, and spatio-temporal databases"
+    title: "Processing of Similarity Queries on Unstructured Text Documents"
+    abst: "Recent decades have witnessed a rapid proliferation of unstructured text documents such as Web pages, e-mails, word-processor documents, metadata, etc. Processing such data has attracted extensive attention and many products and tools have emerged. Due to the existence of inevitable inconsistencies in data, such as erroneous data entries, natural noises, and different data representations in heterogeneous data sources, a recent trend is to study the processing of similarity queries. Tackling the inconsistencies with similarities benefits many applications yet imposes considerable technical challenges. This talk targets a series of fundamental problems in processing similarity queries on unstructured text documents, including similarity search and join, approximate entity recognition, and error-tolerant query autocompletion. The progress that has been made on this topic will be explored and a range of open problems will be identified."
+    bio: "Chuan Xiao is a postdoc research associate in the database group at Nagoya University leading by Prof. Yoshiharu Ishikawa. He received PhD degree from The University of New South Wales in 2010, under the supervision of Prof. Xuemin Lin and Prof. Wei Wang. Before that, he received bachelor's degree in Northeastern University, China, in 2005. His main research interests include similarity search, data integration, textual databases, and graph databases."
+  speaker6:
+    name: "Volkmar Frinken"
+    prefix: "Dr."
+    position: "PostDoc researcher"
+    affiliation: "Kyushu University"
+    keywords:
+      - "Artificial intelligence"
+      - "Machine learning"
+      - "Document analysis"
+      - "Hidden markov models"
+      - "Neural network"
+    title: "Long Short-term Memory Neural Networks for Hand Writing Recognition and Language Modelling"
+    abst: "Despite decades of research, the recognition of handwritten text is still a difficult problem. This difficulty arises from the large variety of different writing styles as well as some ambiguity. It turns out that it is difficult to split a text line into words or even characters without knowing the correct transcription, but it is also difficult to transcribe a text line without knowing how to segment it. As a way around this dilemma, sequential methods have been established that treat an entire text line as one element. A novel kind of recurrent neural networks, so-called Long Short-Term Memory (LSTM) neural networks, have shown a very promising performance. In addition, these networks can also be used to model human language and further help in the recognition process."
+    bio: "Volkmar Frinken has received his Master degree in 2007 from the University of Dortmund, Germany and his PhD in 2011 from the University of Bern, Switzerland. He did a post-doc at the Computer Vision Center of the Autonomous University of Barcelona, Spain and works currently as a Research Fellow at the Department of Advanced Information Technology of Kyushu University in Fukuoka, Japan.
+His research interests include Document Analysis, in particular Handwriting Recognition, Language Modelling, and Historical Document processing; recognition methodologies such as neural networks, hidden Markov models, and dynamic time warping: as well as semi-supervised and unsupervised machine learning techniques."
+internal:
+  speaker1:
+    name: "Hiroyuki Inoue"
+    prefix: "Mr."
+    position: "PhD student"
+    affiliation: "University of Tsukuba"
+    keywords:
+      - "Relational Database Management System"
+    title: ""
+    abst: ""
+  speake2:
+    name: "Hiroyuki Inoue"
+    prefix: "Mr."
+    position: "PhD student"
+    affiliation: "University of Tsukuba"
+    keywords:
+      - "Relational Database Management System"
+    title: ""
+    abst: ""
+  speaker3:
+    name: "Hiroyuki Inoue"
+    prefix: "Mr."
+    position: "PhD student"
+    affiliation: "University of Tsukuba"
+    keywords:
+      - "Relational Database Management System"
+    title: ""
+    abst: ""
+  speaker4:
+    name: "Hiroyuki Inoue"
+    prefix: "Mr."
+    position: "PhD student"
+    affiliation: "University of Tsukuba"
+    keywords:
+      - "Relational Database Management System"
+    title: ""
+    abst: ""
+  speaker5:
+    name: "Hiroyuki Inoue"
+    prefix: "Mr."
+    position: "PhD student"
+    affiliation: "University of Tsukuba"
+    keywords:
+      - "Relational Database Management System"
+    title: ""
+    abst: ""
+  speaker6:
+    name: "Hiroyuki Inoue"
+    prefix: "Mr."
+    position: "PhD student"
+    affiliation: "University of Tsukuba"
+    keywords:
+      - "Relational Database Management System"
+    title: ""
+    abst: ""
