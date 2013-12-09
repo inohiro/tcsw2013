@@ -13,13 +13,8 @@ external:
       - "Web-technology"
       - "Query processing and query optimization"
     title: "I/O Efficient: Computing SCCs in Massive Graphs"
-    abst: "A strongly connected component (SCC) is a maximal subgraph of a directed graph G in which every pair of nodes are reachable from each other in
-the SCC. With such a property, a general directed graph can be represented by a directed acyclic graph (DAG) by contracting an SCC of G to a node
-in DAG. In many real applications that need graph pattern matching, topological sorting, or reachability query processing, the best way to deal with
-a general directed graph is to deal with its DAG representation. Therefore, finding all SCCs in a directed graph G is a critical operation. The existing
-in-memory algorithms based on depth first search (DFS) can find all SCCs in linear time w.r.t. the size of a graph. However, when a graph cannot
-resident entirely in the main memory, the existing external or semi-external algorithms to find all SCCs have limitation to achieve high I/O efficiency.
-In this paper, we study new I/O efficient semi-external algorithms to find all SCCs for a massive directed graph G that cannot reside in main memory entirely. To overcome the deficiency of the existing DFS based semi-external algorithm that heavily relies on a total order, we explore a weak order based on which we investigate new algorithms. We propose a new two phase algorithm, namely, tree construction and tree search. In the tree construction phase, a spanning tree of G can be constructed in bounded sequential scans of G. In the tree search phase, it needs to sequentially scan the graph once to find all SCCs. In addition, we propose a new single phase algorithm, which combines the tree construction and tree search phases into a single phase, with three new optimization techniques. They are early acceptance, early rejection, and batch processing. By the single phase algorithm with the new optimization techniques, we can significantly reduce the number of I/Os and CPU cost. We conduct extensive experimental studies using 4 real datasets including a massive real dataset, and several synthetic datasets to confirm the I/O efficiency of our approaches."
+    abst: "A strongly connected component (SCC) is a maximal subgraph of a directed graph G in which every pair of nodes are reachable from each other in the SCC. With such a property, a general directed graph can be represented by a directed acyclic graph (DAG) by contracting an SCC of G to a node in DAG. In many real applications that need graph pattern matching, topological sorting, or reachability query processing, the best way to deal with a general directed graph is to deal with its DAG representation. Therefore, finding all SCCs in a directed graph G is a critical operation. The existing in-memory algorithms based on depth first search (DFS) can find all SCCs in linear time w.r.t. the size of a graph. However, when a graph cannot resident entirely in the main memory, the existing external or semi-external algorithms to find all SCCs have limitation to achieve high I/O efficiency.
+In this paper, we study new I/O efficient semi-external algorithms to find all SCCs for a massive directed graph G that cannot reside in main memory entirely. To overcome the deficiency of the existing DFS based semi-external algo ithm that heavily relies on a total order, we explore a weak order based on which we investigate new algorithms. We propose a new two phase algorithm, namely, tree construction and tree search. In the tree construction phase, a spanning tree of G can be constructed in bounded sequential scans of G. In the tree search phase, it needs to sequentially scan the graph once to find all SCCs. In addition, we propose a new single phase algorithm, which combines the tree construction and tree search phases into a single phase, with three new optimization techniques. They are early acceptance, early rejection, and batch processing. By the single phase algorithm with the new optimization techniques, we can significantly reduce the number of I/Os and CPU cost. We conduct extensive experimental studies using 4 real datasets including a massive real dataset, and several synthetic datasets to confirm the I/O efficiency of our approaches."
     bio: "Zhiwei Zhang received his B.Eng. in computer science and technology from Renmin University of China in 2010. He is currently a Ph.D student in the Department of System Engineering and Engineering Management, The Chinese University of Hong Kong. His major research interests include large-scale graph query processing and I/O efficient graph algorithms."
   speaker2:
     name: "Yang Wu"
@@ -61,17 +56,7 @@ In conclusion, I highlight the contributions and the potential future research d
       - "Bayesian inference and information criterion for model selection"
       - "Online learning algorithms and parallel computing for large-slace sparse data"
     title: "Relational Data Analysis by Tensor Decomposition"
-    abst: "A collection of relationships among aligned multiple objects, for
-example, WWW, social networks, and DNA microarray, are called
-relational data. Generally speaking, the relational data of m-tuples
-are represented by an m-dimensional array or a m-th order tensor,
-while its high dimensionality hinders direct analysis. Tensor
-decomposition is a remedy of this issue, which finds a low-dimensional
-projection that is useful for data compression, feature extraction,
-visualization, and data completion. In this talk, we introduce a few
-basic models of tensor decomposition and several examples of
-real-world application studied in the fields of machine learning and
-data mining."
+    abst: "A collection of relationships among aligned multiple objects, for example, WWW, social networks, and DNA microarray, are called relational data. Generally speaking, the relational data of m-tuples are represented by an m-dimensional array or a m-th order tensor, while its high dimensionality hinders direct analysis. Tensor decomposition is a remedy of this issue, which finds a low-dimensional projection that is useful for data compression, feature extraction, visualization, and data completion. In this talk, we introduce a few basic models of tensor decomposition and several examples of real-world application studied in the fields of machine learning and data mining."
     bio: "https://sites.google.com/site/koheihayashi84/"
   speaker5:
     name: "Chuang XIAO"

@@ -1,11 +1,11 @@
 ---
 Opening:
   talk1:
-    time: 09:00-9:05
+    time: 09:00-09:05
     title: Opening Speech by Co-Chair
     speaker:
 
-Session 1 9:05-12:00 (Database session):
+Session 1 (Database session):
   talk1:
     time: 09:05-09:40
     title: "I/O Efficient: Computing SCCs in Massive Graphs"
@@ -35,7 +35,7 @@ Session 1 9:05-12:00 (Database session):
 Break 12:00-13:15:
   talk:
 
-Session 2 13:15-15:00 (Computer Vision session):
+Session 2 (Computer Vision session):
   talk1:
     time: 13:15-13:50
     title: "Long Short-term Memory Neural Networks for Hand Writing Recognition and Language Modelling"
@@ -55,7 +55,7 @@ Session 2 13:15-15:00 (Computer Vision session):
 Coffee break 15:00-15:20:
   talk:
 
-Session 3 15:20-17:40 (Human Computer Interaction session):
+Session 3 (Human Computer Interaction session):
   talk1:
     time: 15:20-15:55
     title: "Title is undecided"
@@ -77,10 +77,13 @@ Session 3 15:20-17:40 (Human Computer Interaction session):
     speaker: "by Mr. Rong-Hao Liang"
     url: "/speakers.html#external_speakers3"
 
-Closing 17:40-17:45:
+Closing:
   talk:
+    time: 17:40-17:45
+    title: Closing Speech by Co-Chair
+    speaker:
 
-Banquet 18:30-20:30 *** Invitation only ***:
+Banquet *** Invited Only ***:
   talk:
     time: 18:30-20:30
     title: "at 3rd area cafeteria"

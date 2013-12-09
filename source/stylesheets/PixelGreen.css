@@ -8,7 +8,7 @@
    LAST MODIFIED    :   January 19, 2010
 
 ------------------------------------------------------- */
- 
+
 /* ----------------------------------------------------
    HTML ELEMENTS
 ------------------------------------------------------- */
@@ -17,12 +17,13 @@
 * { padding: 0; margin: 0; outline: 0; }
 
 body {
-	margin: 0; 	padding: 0;
+	margin: 0;
+	padding: 0;
 	/* font: normal 75%/1.6em 'Trebuchet MS', Tahoma, sans-serif; */
 	font: normal 80%/1.6em 'Trebuchet MS', Tahoma, sans-serif;
 	color: #555;
 	background: #FFF url("../images/bg.jpg") repeat-x;
-	text-align: center;		
+	text-align: center;
 }
 
 /* links */
@@ -50,7 +51,7 @@ img {
 	background: #FAFAFA;
 }
 img.float-right {
-  margin: 5px 0px 5px 15px;  
+  margin: 5px 0px 5px 15px;
 }
 img.float-left {
   margin: 5px 15px 5px 0px;
@@ -61,11 +62,11 @@ code {
   padding: 10px;
   text-align: left;
   display: block;
-  overflow: auto;  
+  overflow: auto;
   font: 500 1em/1.5em 'Lucida Console', 'courier new', monospace;
   /* white-space: pre; */
   background: #FAFAFA;
-  border: 1px solid #f2f2f2;  
+  border: 1px solid #f2f2f2;
   border-left: 3px solid #72A545;
 }
 acronym {
@@ -73,46 +74,51 @@ acronym {
   border-bottom: 1px solid #777;
 }
 blockquote {
-	margin: 15px; 	padding: 0 0 0 20px;  	
-  	background-color: #FAFAFA; 
+	margin: 15px; 	padding: 0 0 0 20px;
+  	background-color: #FAFAFA;
 	background-position: 8px 10px;
-	border: 1px solid #f2f2f2; 
-	border-left: 3px solid #72A545;  
-	font: bold 1.2em/1.5em "Trebuchet MS", Tahoma, sans-serif; 
-	color: #666666;	
+	border: 1px solid #f2f2f2;
+	border-left: 3px solid #72A545;
+	font: bold 1.2em/1.5em "Trebuchet MS", Tahoma, sans-serif;
+	color: #666666;
 }
 
 /* start - table */
 table {
 	border-collapse: collapse;
-	margin: 10px 15px;	
+	margin: 10px; /*  15px; */
+	width: 100%;
 }
+
 th strong {
 	color: #fff;
 }
 th {
 	background: #74A846;
 	height: 29px;
-	padding-left: 11px;
-	padding-right: 11px;
+	padding-left: 5px;
+	padding-right: 5px;
 	color: #fff;
 	text-align: left;
 	border-left: 1px solid #B6D59A;
 	border-bottom: solid 2px #FFF;
 }
+
 tr {
-	height: 30px;
+    height: 30px;
 }
 td {
-	padding-left: 11px;
-	padding-right: 11px;
-	/* border-left: 1px solid #FFE1C3; */
-	border-left: 1px solid #FFF;
-	border-bottom: solid 1px #ffffff;
+    padding-left: 11px;
+    padding-right: 11px;
+    /* border-left: 1px solid #FFE1C3 */
+    /* border-right: 1px solid #FFF; */
+    border-bottom: solid 1px #ffffff;
 }
-td.first,th.first {
-	border-left: 0px;
+
+td:last-child {
+    width: 80%;
 }
+
 tr.row-a {
 	background: #F8F8F8;
 }
@@ -124,8 +130,8 @@ tr.row-b {
 /* form elements */
 form {
 	margin:10px 15px; padding: 0;
-	border: 1px solid #f2f2f2; 
-	background-color: #FAFAFA; 
+	border: 1px solid #f2f2f2;
+	background-color: #FAFAFA;
 }
 label {
 	display:block;
@@ -147,35 +153,35 @@ textarea {
 	display:block;
 	color:#777;
 }
-input.button { 
-	margin: 0; 
-	font: bold 1em Arial, Sans-serif; 
-	background: #FFF url("../images/gradientbg.jpg") repeat-x; 
-	padding: 2px 3px; 
-	color: #333;	
-	border: 1px solid #DADADA;	
+input.button {
+	margin: 0;
+	font: bold 1em Arial, Sans-serif;
+	background: #FFF url("../images/gradientbg.jpg") repeat-x;
+	padding: 2px 3px;
+	color: #333;
+	border: 1px solid #DADADA;
 }
 
 /* search form */
 .searchform {
 	background-color: transparent;
-	border: none;	margin: 0; padding: 0;	
+	border: none;	margin: 0; padding: 0;
 }
 .searchform p { margin: 10px; padding: 0; }
-.searchform input.textbox { 
+.searchform input.textbox {
 	width: 130px;
-	color: #333; 
+	color: #333;
 	height: 20px;
-	padding: 2px;	
+	padding: 2px;
 	vertical-align: top;
 }
-.searchform input.button { 
-	font: bold 12px Arial, Sans-serif; 
-	color: #333;	
+.searchform input.button {
+	font: bold 12px Arial, Sans-serif;
+	color: #333;
 	width: 60px;
 	height: 26px;
 	border: 1px solid #DADADA;
-	padding: 3px 5px;	
+	padding: 3px 5px;
 	vertical-align: top;
 }
 
@@ -190,19 +196,19 @@ input.button {
 /* header */
 #header {
 	height: 100px;
-	text-align: left;	
+	text-align: left;
 }
-#header-content {	
+#header-content {
 	margin: 0 auto; padding: 0;
 	position: relative;
 }
 #header-content h1#logo {
-	position: absolute;	
+	position: absolute;
 	font: bold 45px 'Trebuchet MS', Sans-serif;
-	letter-spacing: -2px; 
+	letter-spacing: -2px;
 	color: #FFF;
-	margin: 0; padding: 0;		
-	
+	margin: 0; padding: 0;
+
 	/* change the values of left and top to adjust the position of the logo */
 	top: 0; left: 0px;
 }
@@ -211,12 +217,12 @@ input.button {
 	color: #FFF;
 }
 #header-content #slogan {
-	position: absolute;	
+	position: absolute;
 	font: bold 20px 'Trebuchet Ms', Sans-serif;
 	text-transform: none;
-	color: #FFF;	
+	color: #FFF;
 	margin: 0; padding: 0;
-	
+
 	/* change the values of left and top to adjust the position of the slogan */
 	top: 55px; left: 40px;
 }
@@ -228,7 +234,7 @@ input.button {
 	font: bolder 1.3em 'Trebuchet MS', sans-serif;
 	color: #FFF;
 	list-style: none;
-	margin: 0; padding: 0;		
+	margin: 0; padding: 0;
 }
 #header-content li {
 	display: inline;
@@ -257,7 +263,7 @@ input.button {
 	width: 770px;
 	/* height: 200px; */
 	height: 250px;
-	padding: 15px 10px 10px 10px; 
+	padding: 15px 10px 10px 10px;
 	/* background: #FFF url("../images/headerphoto.jpg") no-repeat center; */
 	/* background: #FFF url("../images/770_250.jpg") no-repeat center; */
 	background: #FFF url("../images/ha-pacs.png") no-repeat center;
@@ -270,20 +276,20 @@ input.button {
 	width: 100%;
 }
 #content {
-	text-align: left;	
+	text-align: left;
 	padding: 0;
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 
 /* sidebar */
 #sidebar {
 	float: right;
 	width: 26%;
-	margin: 0 0 10px 0; padding: 0;	
-}	
+	margin: 0 0 10px 0; padding: 0;
+}
 #sidebar h1 {
 	padding: 10px 0px 5px 10px;
-	margin: 0;	
+	margin: 0;
 	font: bold 1.3em 'Trebuchet MS', Tahoma, Sans-serif;
 }
 .sidebox {
@@ -297,7 +303,7 @@ input.button {
 	list-style:none;
 	margin: 10px 0 15px 0;
 	padding: 0;
-	background: #F2F2F2;			
+	background: #F2F2F2;
 }
 #sidebar ul.sidemenu li {
 	padding: 0px 10px;
@@ -307,31 +313,31 @@ input.button {
 	display:block;
 	font-weight:normal;
 	color: #333;
-	height: 1.5em;	
+	height: 1.5em;
 	padding:.3em 0 .3em 15px;
 	line-height: 1.5em;
 	border-bottom: 1px dashed #D4D4D4;
 	text-decoration:none;
 }
-#sidebar ul.sidemenu a.top{	
+#sidebar ul.sidemenu a.top{
 	border-top: 1px dashed #D4D4D4;
 }
 #sidebar ul.sidemenu a:hover {
 	padding: .3em 0 .3em 10px;
 	border-left: 5px solid  #65944A;
-	color: #65944A;		
+	color: #65944A;
 }
 
 /* main */
 #main {
 	float: left;
 	width: 72%;
-	margin: 0 0 10px 0; padding: 0;	
+	margin: 0 0 10px 0; padding: 0;
 }
 #main h1 {
 	padding: 10px 0px 0px 5px;
 	margin: 0 0 0 10px;
-	border-bottom: 1px solid #f2f2f2; 	
+	border-bottom: 1px solid #f2f2f2;
 	font: normal 1.8em 'Trebuchet MS', Tahoma, Sans-serif;
 }
 #main ul li {
@@ -367,12 +373,12 @@ input.button {
 	clear: both;
 	margin: 0; padding: 0;
 	font: normal .95em/1.6em 'Trebuchet MS', Tahoma, Arial, sans-serif;
-	text-align: left;	
+	text-align: left;
 }
 
 #footer h1, #footer p {	margin-left: 0; }
 
-#footer-content {	
+#footer-content {
 	border-top: 1px solid #EAEAEA;
 	margin: 0 auto;
 	padding-left: 15px;
@@ -409,11 +415,11 @@ input.button {
 
 #footer-content .col {
 	width: 240px;
-	padding: 0 5px 30px 0;	
+	padding: 0 5px 30px 0;
 }
 #footer-content .col2 {
 	width: 230px;
-	padding: 0 0 30px 0;	
+	padding: 0 0 30px 0;
 }
 #footer-content .space-sep {
 	margin-right: 20px;
@@ -428,6 +434,3 @@ input.button {
 /* additional classes */
 .clear { clear: both; }
 .gray  { color: #BFBFBF; }
-
-
-

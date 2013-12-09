@@ -7,21 +7,24 @@ title: Program
 
   <% data.program.each do |session,talks| %>
     <h2><%= session %></h2>
-    <ul>
-      <% talks.each do |id,talk| %>
-	<% if talk %>
-	  <li>
-	    <%= talk.time %>
-	    <ul>
-	      <li><%= talk.title %> <%= talk.speaker %></li>
-	      <% if talk.speaker %>
-		<li><%= link_to 'speaker and talk info.', set_prefix( talk.url ) %></li>
-	      <% end %>
-	    </ul>
-	  </li>
-	<% end %>
-      <% end %>
-    </ul>
+    <% unless talks.first[1].nil? %>
+      <table>
+        <% talks.each do |id,talk| %>
+          <% if talk %>
+            <tr>
+	      <td><%= talk.time %></td>
+              <td>
+                <% if talk.speaker %>
+                  <%= link_to "#{talk.title} (#{talk.speaker})", set_prefix( talk.url ) %>
+                <% else %>
+                  <%= talk.title %>
+                <% end %>
+              </td>
+            </tr>
+          <% end %>
+        <% end %>
+      </table>
+    <% end %>
   <% end %>
 
 </div>
