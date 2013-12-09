@@ -278,7 +278,7 @@ input.button {
 /* sidebar */
 #sidebar {
 	float: right;
-	width: 30%;
+	width: 26%;
 	margin: 0 0 10px 0; padding: 0;	
 }	
 #sidebar h1 {
@@ -325,7 +325,7 @@ input.button {
 /* main */
 #main {
 	float: left;
-	width: 68%;
+	width: 72%;
 	margin: 0 0 10px 0; padding: 0;	
 }
 #main h1 {
