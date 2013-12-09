@@ -21,7 +21,10 @@ title: Speakers
   <% data.speakers.each do |type,speakers| %>
     <% speakers.each do |id,speaker| %>
       <a name='<%= "#{type}_#{id}" %>'></a>
-      <h1><%= "#{speaker.prefix} #{speaker.name}" %></h1>
+      <h1>
+        <%= "#{speaker.prefix} #{speaker.name}" %>
+        <% if speaker.url %>(<%= link_to 'URL', speaker.url, { :class => 'speakerlink', :target => '_blank' } %>)<% end %>
+      </h1>
       <table class="speaker">
         <tr>
           <td>Status</td>
@@ -35,13 +38,18 @@ title: Speakers
           <td>Abstract</td>
           <td><%= speaker.abst %></td>
         </tr>
+        <% if speaker.bio %>
         <tr>
           <td>Biography</td>
           <td><%= speaker.bio %></td>
         </tr>
+        <% end %>
+        <% if speaker.keywords %>
         <tr>
           <td>Keywords</td>
           <td><%= speaker.keywords.join( ', ' ) %></td>
+        </tr>
+        <% end %>
       </table>
       <p class="backlink"><a href="#">&#9650; Back to top</a></p>
     <% end %>

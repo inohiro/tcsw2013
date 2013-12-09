@@ -83,6 +83,10 @@ blockquote {
 	color: #666666;
 }
 
+a.speakerlink {
+    color: blue;
+}
+
 /* start - table */
 table {
     border-collapse: collapse;
