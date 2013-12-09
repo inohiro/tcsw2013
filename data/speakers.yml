@@ -1,6 +1,7 @@
 ---
 From external institute::
   speaker1:
+    anchor: es1
     name: "Zhiwei Zhang"
     prefix: "Mr."
     position: "PhD student"
@@ -18,6 +19,7 @@ In this paper, we study new I/O efficient semi-external algorithms to find all S
     bio: "Zhiwei Zhang received his B.Eng. in computer science and technology from Renmin University of China in 2010. He is currently a Ph.D student in the Department of System Engineering and Engineering Management, The Chinese University of Hong Kong. His major research interests include large-scale graph query processing and I/O efficient graph algorithms."
     url: "http://www1.se.cuhk.edu.hk/~dbgroup/next/index.php/component/jresearch/?view=member&task=show&id=8"
   speaker2:
+    anchor: es2
     name: "Yang Wu"
     prefix: "Dr."
     position: "PostDoc researcher"
@@ -33,6 +35,7 @@ In this talk, I will first give a very brief overview of the problem itself, the
     bio: "Yang is currently a post-doctoral researcher of Academic Center for Computing and Media Studies, Kyoto University. He received a BS degree in information engineering and a Ph.D degree in pattern recognition and intelligent systems from Xi'an Jiaotong University in 2004 and 2010, respectively. From Sep. 2007 to Dec. 2008, he was a visiting student in the General Robotics, Automation, Sensing and Perception (GRASP) lab at University of Pennsylvania. His research is in the fields of computer vision and pattern recognition, with particular interests in the detection, tracking and recognition of humans and also generic objects. He is also interested in image/video search and retrieval, along with machine learning techniques."
     url: "http://mm.media.kyoto-u.ac.jp/members/yangwu/"
   speaker3:
+    anchor: es3
     name: "Rong-Hao LIANG"
     prefix: "Mr."
     position: "PhD student"
@@ -47,6 +50,7 @@ In conclusion, I highlight the contributions and the potential future research d
     bio: "Rong-Hao Liang is currently a 3rd-year PhD student of Communications and Multimedia Laboratory in National Taiwan University, Taiwan. He received his M.S. degree in Electrical Engineering from National Taiwan University. His main research interest is on Human-Computer Interaction, with a specific focus on interaction techniques and devices of wearable and tangible user interfaces. He was awarded the 2013 ACM SIGCHI Best Paper Award and the 2012 ACM SIGGRAPH Asia Emerging Technologies Prize."
     url: "http://cmlab.csie.ntu.edu.tw/~howieliang/"
   speaker4:
+    anchor: es4
     name: "Kohei Hayashi"
     prefix: "Dr."
     position: "PostDoc researcher"
@@ -60,6 +64,7 @@ In conclusion, I highlight the contributions and the potential future research d
     url: "https://sites.google.com/site/koheihayashi84/"
     // bio: "https://sites.google.com/site/koheihayashi84/"
   speaker5:
+    anchor: es5
     name: "Chuang XIAO"
     prefix: "Dr."
     position: "PostDoc researcher"
@@ -74,6 +79,7 @@ In conclusion, I highlight the contributions and the potential future research d
     bio: "Chuan Xiao is a postdoc research associate in the database group at Nagoya University leading by Prof. Yoshiharu Ishikawa. He received PhD degree from The University of New South Wales in 2010, under the supervision of Prof. Xuemin Lin and Prof. Wei Wang. Before that, he received bachelor's degree in Northeastern University, China, in 2005. His main research interests include similarity search, data integration, textual databases, and graph databases."
     url: "https://sites.google.com/site/chuanxiao1983/"
   speaker6:
+    anchor: es6
     name: "Volkmar Frinken"
     prefix: "Dr."
     position: "PostDoc researcher"
@@ -91,6 +97,7 @@ In conclusion, I highlight the contributions and the potential future research d
 His research interests include Document Analysis, in particular Handwriting Recognition, Language Modelling, and Historical Document processing; recognition methodologies such as neural networks, hidden Markov models, and dynamic time warping: as well as semi-supervised and unsupervised machine learning techniques."
 From University of Tsukuba::
   speaker1:
+    anchor: is1
     name: "Yusuke Kozawa"
     prefix: "Mr."
     position: "1st grade PhD student"
@@ -103,6 +110,7 @@ From University of Tsukuba::
     bio: "Yusuke Kozawa is currently a Ph.D. student at University of Tsukuba under the supervision of Prof. Hiroyuki Kitagawa. He received his Bachelor's and M.Eng. degrees from University of Tsukuba in 2011 and 2013, respectively. His research interests include databases, data mining, and parallel computing. More specifically, he is interested in the following topics: parallel computing (many core processor, GUP computing (GPGPU), SIMD, AVX), Data Mining (Associate rule mining, Frequent item set mining, Clustering, Skyline "
     url: "http://www.kde.cs.tsukuba.ac.jp/~kyusuke/"
   speake2:
+    anchor: is2
     name: "Chen-chen Ding"
     prefix: "Mr."
     position: "2nd grade PhD student"
@@ -115,6 +123,7 @@ From University of Tsukuba::
     bio: "2005.09-2009.07: ShanDong University, China. B.S.. 2010.04-2012.03: Department of Computer Science, System ans Information Engineering, University of Tsukuba. M.S. of Engineering. 2012.04-current: PhD candidate. 2012.09-2013.03: Internship at MSRA (Mentor: Dr. Yuki Arase)."
     url: "http://www.mibel.cs.tsukuba.ac.jp/~tei/"
   speaker3:
+    anchor: is3
     name: "Takahiro Komamizu"
     prefix: "Mr."
     position: "3rd grade PhD student"
@@ -129,6 +138,7 @@ From University of Tsukuba::
     abst: "Face image search is one of the most important and difficult tasks in the real  world situations, like finding criminals from victims' interviews and finding life partners w.r.t. faci impression. This work attempts to make it easy to find people from face image database. To this end, getting features such as sex and colors of skins and eyes can be easy solutions, but more \"unexpressive\" features, like how his/her hair seemed to be, cannot be included. To this problem, this work proposes FUKUWARAI system which extracts fragments of face images as features for search and employs the fragments as facets in terms of faceted navigation. Although, user study shows FUKUWARI system works well, feature mismatching problem reduces its performance. For this problem, this work extends FUKUWARI system to allow more flexible features by probabilistic modeling and proposes probability modification mechanism based on voting. The experimental result shows the modification contributes to improve search performance over FUKUWARI system."
     bio: "Takahiro Komamizu received B.E and M.E from Department of Computer Science, University of Tsukuba in 2009 and 2011, respectively. Currently, he is a Ph. D candidate at Graduate School of Systems and Information Engineering, University of Tsukuba, Japan. His research interests include database systems, XML data management, data mining, information retrieval and multimedia data management. He is a student member of ACM, IEEE, and DBSJ."
   speaker4:
+    anchor: is4
     name: "Naoya Tsuruta"
     prefix: "Mr."
     position: "2nd grade PhD student"
@@ -139,6 +149,7 @@ From University of Tsukuba::
     bio: "2003-2008: Dept. of Information and Computer Engineering, Toyota National College of Technology. 2008-2010: College of Information Science, University of Tsukuba. 2010-current: Graduate School of Systems and Information Engineering, University of Tsukuba. Non-numerical Processing Algorithms Laboratory."
     url: "http://www.npal.cs.tsukuba.ac.jp/~tsuruta/"
   speaker5:
+    anchor: is5
     name: "Ching-Tzun Chang"
     prefix: "Mr."
     position: "PhD student"
@@ -149,6 +160,7 @@ From University of Tsukuba::
     abst: ""
     bio: ""
   speaker6:
+    anchor: is6
     name: "Mohsin Ali Memon"
     prefix: "Mr."
     position: "PhD student"

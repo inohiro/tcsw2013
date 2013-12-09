@@ -11,7 +11,7 @@ title: Speakers
 	<%= type %>
 	<ul>
 	  <% speakers.each do |id, speaker| %>
-	    <li><%= link_to "#{speaker.prefix} #{speaker.name}", "\##{type}_#{id}" %></li>
+	    <li><%= link_to "#{speaker.prefix} #{speaker.name}", "\##{speaker.anchor}" %></li>
 	  <% end %>
 	</ul>
       </li>
@@ -20,7 +20,7 @@ title: Speakers
 
   <% data.speakers.each do |type,speakers| %>
     <% speakers.each do |id,speaker| %>
-      <a name='<%= "#{type}_#{id}" %>'></a>
+      <a name='<%= speaker.anchor %>'></a>
       <h1>
         <%= "#{speaker.prefix} #{speaker.name}" %>
         <% if speaker.url %>(<%= link_to 'URL', speaker.url, { :class => 'speakerlink', :target => '_blank' } %>)<% end %>
