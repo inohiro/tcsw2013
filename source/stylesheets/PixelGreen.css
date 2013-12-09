@@ -130,6 +130,10 @@ table.speaker td {
     border-bottom: 1px solid black;
 }
 
+table.speaker td:last-child {
+    width: 90%;
+}
+
 /* end - table */
 
 /* form elements */
