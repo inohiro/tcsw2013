@@ -85,9 +85,9 @@ blockquote {
 
 /* start - table */
 table {
-	border-collapse: collapse;
-	margin: 10px; /*  15px; */
-	width: 100%;
+    border-collapse: collapse;
+    margin: 10px; /*  15px; */
+    width: 100%;
 }
 
 th strong {
@@ -125,6 +125,11 @@ tr.row-a {
 tr.row-b {
 	background: #EFEFEF;
 }
+
+table.speaker td {
+    border-bottom: 1px solid black;
+}
+
 /* end - table */
 
 /* form elements */
@@ -279,6 +284,10 @@ input.button {
 	text-align: left;
 	padding: 0;
 	margin: 0 auto;
+}
+
+p.backlink {
+    text-align: right;
 }
 
 /* sidebar */

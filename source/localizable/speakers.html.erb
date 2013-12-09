@@ -19,22 +19,31 @@ title: Speakers
   </ul>
 
   <% data.speakers.each do |type,speakers| %>
-    <% speakers.each do |id, speaker| %>
-      <hr />
+    <% speakers.each do |id,speaker| %>
       <a name='<%= "#{type}_#{id}" %>'></a>
       <h1><%= "#{speaker.prefix} #{speaker.name}" %></h1>
-      <ul>
-	<li><%= speaker.position %> at <%= speaker.affiliation %></li>
-	<li>Title: <b><u><%= speaker.title %></u></b></li>
-	<li>Abst.: <%= speaker.abst %></li>
-	<li>Bio.: <%= speaker.bio %></li>
-	<li>
-	  Keywords:
-	  <ul>
-	    <% speaker.keywords.each do |keyword| %><li><%= keyword %></li><% end %>
-	  </ul>
-	</li>
-      </ul>
+      <table class="speaker">
+        <tr>
+          <td>Status</td>
+          <td><%= "#{speaker.position} at #{speaker.affiliation}" %></td>
+        </tr>
+        <tr>
+          <td>Title</td>
+          <td><%= speaker.title %></td>
+        </tr>
+        <tr>
+          <td>Abst.</td>
+          <td><%= speaker.abst %></td>
+        </tr>
+        <tr>
+          <td>Bio.</td>
+          <td><%= speaker.bio %></td>
+        </tr>
+        <tr>
+          <td>Keywords</td>
+          <td><%= speaker.keywords.join( ', ' ) %></td>
+      </table>
+      <p class="backlink"><a href="#">&#9650; Back to top</a></p>
     <% end %>
   <% end %>
 
