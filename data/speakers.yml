@@ -1,5 +1,5 @@
 ---
-external:
+From external institute::
   speaker1:
     name: "Zhiwei Zhang"
     prefix: "Mr."
@@ -83,7 +83,7 @@ In conclusion, I highlight the contributions and the potential future research d
     abst: "Despite decades of research, the recognition of handwritten text is still a difficult problem. This difficulty arises from the large variety of different writing styles as well as some ambiguity. It turns out that it is difficult to split a text line into words or even characters without knowing the correct transcription, but it is also difficult to transcribe a text line without knowing how to segment it. As a way around this dilemma, sequential methods have been established that treat an entire text line as one element. A novel kind of recurrent neural networks, so-called Long Short-Term Memory (LSTM) neural networks, have shown a very promising performance. In addition, these networks can also be used to model human language and further help in the recognition process."
     bio: "Volkmar Frinken has received his Master degree in 2007 from the University of Dortmund, Germany and his PhD in 2011 from the University of Bern, Switzerland. He did a post-doc at the Computer Vision Center of the Autonomous University of Barcelona, Spain and works currently as a Research Fellow at the Department of Advanced Information Technology of Kyushu University in Fukuoka, Japan.
 His research interests include Document Analysis, in particular Handwriting Recognition, Language Modelling, and Historical Document processing; recognition methodologies such as neural networks, hidden Markov models, and dynamic time warping: as well as semi-supervised and unsupervised machine learning techniques."
-internal:
+From University of Tsukuba::
   speaker1:
     name: "Yusuke Kozawa"
     prefix: "Mr."
