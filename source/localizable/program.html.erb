@@ -15,7 +15,7 @@ title: Program
 	      <td><%= talk.time %></td>
               <td>
                 <% if talk.speaker %>
-                  <%= link_to "#{talk.title} (#{talk.speaker})", set_prefix( talk.url ) %>
+                  <%= link_to "#{talk.title} (by #{talk.speaker})", set_prefix( talk.url ) %>
                 <% else %>
                   <%= talk.title %>
                 <% end %>

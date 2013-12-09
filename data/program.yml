@@ -9,17 +9,17 @@ Session 1 (Database session):
   talk1:
     time: 09:05-09:40
     title: "I/O Efficient: Computing SCCs in Massive Graphs"
-    speaker: "by Dr. Zhiwei Zhang"
+    speaker: "Dr. Zhiwei Zhang"
     url: "/speakers.html#external_speaker1"
   talk2:
     time: 09:40-10:15
     title: "GPU Acceleration of Probabilistic Frequent Itemset Mining from Uncertain Databases"
-    speaker: "by Mr. Yusuke Kozawa"
+    speaker: "Mr. Yusuke Kozawa"
     url: ""
   talk3:
     time: 10:15-10:50
     title: "Processing of Similarity Queries on Unstructured Text Documents"
-    speaker: "by Dr. Chuan Xiao"
+    speaker: "Dr. Chuan Xiao"
     url: "/speakers.html#external_speaker5"
   talk4:
     time: 10:15-10:50
@@ -28,8 +28,8 @@ Session 1 (Database session):
     url: ""
   talk3:
     time: 11:25-12:00
-    title: "Relational Data Analysis by Tensor Decomposition"
-    speaker: "by Dr. Kohei Hayashi"
+    title: "Relational Data Analysis Tensor Decomposition"
+    speaker: "Dr. Kohei Hayashi"
     url: "/speakers.html#external_speaker4"
 
 Break 12:00-13:15:
@@ -39,17 +39,17 @@ Session 2 (Computer Vision session):
   talk1:
     time: 13:15-13:50
     title: "Long Short-term Memory Neural Networks for Hand Writing Recognition and Language Modelling"
-    speaker: "by Dr. Volkmar Frinken"
+    speaker: "Dr. Volkmar Frinken"
     url: "/speakers.html#external_speaker6"
   talk2:
     time: 13:50-14:25
     title: "FUKUWARAI: an Interactive Search System for Face Images"
-    speaker: "by Mr. Takahiro Komamizu"
+    speaker: "Mr. Takahiro Komamizu"
     url: ""
   talk3:
     time: 14:25-15:00
     title: "Collaborative Representation for Person Re-identification"
-    speaker: "by Dr. Yang Wu"
+    speaker: "Dr. Yang Wu"
     url: "/speakers.html#external_speaker2"
 
 Coffee break 15:00-15:20:
@@ -64,17 +64,17 @@ Session 3 (Human Computer Interaction session):
   talk2:
     time: 15:55-16:30
     title: "WithYou – A Communication System to Provide Out Together Feeling"
-    speaker: "by Mr. Ching-Tzun Chang"
+    speaker: "Mr. Ching-Tzun Chang"
     url: ""
   talk3:
     time: 16:30-17:05
-    title: "Ensuring Privacy in the Course of Pervasive Logging by a Passerby"
-    speaker: "by Mr. Mohsin Ali Memon"
+    title: "Ensuring Privacy in the Course of Pervasive Logging a Passerby"
+    speaker: "Mr. Mohsin Ali Memon"
     url: ""
   talk4:
     time: 17:05-17:40
     title: "GaussSense: Portable and Occlusion-free Near-surface Object Tracking Using Magnetic Sensor Grid"
-    speaker: "by Mr. Rong-Hao Liang"
+    speaker: "Mr. Rong-Hao Liang"
     url: "/speakers.html#external_speakers3"
 
 Closing:
