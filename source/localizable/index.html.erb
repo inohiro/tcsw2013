@@ -3,6 +3,14 @@ title: Top
 ---
 
 <div>
+  <h1><%= t('whats_new') %></h1>
+  <% data.whatsnew.each do |date,thing| %>
+    <h2><%= date %></h2>
+    <p><%= thing[I18n.locale.to_s] %></p>
+  <% end %>
+</div>
+
+<div>
   <h1><%= t('slogan') %></h1>
   <p><%= t('top.abstract') %></p>
   <p><%= t('top.theme') %></p>
