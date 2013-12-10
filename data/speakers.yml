@@ -36,7 +36,7 @@ In this talk, I will first give a very brief overview of the problem itself, the
     url: "http://mm.media.kyoto-u.ac.jp/members/yangwu/"
   speaker3:
     anchor: es3
-    name: "Rong-Hao LIANG"
+    name: "Rong-Hao Liang"
     prefix: "Mr."
     position: "PhD student"
     affiliation: "National Taiwan University"
@@ -65,7 +65,7 @@ In conclusion, I highlight the contributions and the potential future research d
     // bio: "https://sites.google.com/site/koheihayashi84/"
   speaker5:
     anchor: es5
-    name: "Chuang XIAO"
+    name: "Chuan Xiao"
     prefix: "Dr."
     position: "PostDoc researcher"
     affiliation: "Nagoya University"
@@ -76,7 +76,7 @@ In conclusion, I highlight the contributions and the potential future research d
       - "Textual, graph, and spatio-temporal databases"
     title: "Processing of Similarity Queries on Unstructured Text Documents"
     abst: "Recent decades have witnessed a rapid proliferation of unstructured text documents such as Web pages, e-mails, word-processor documents, metadata, etc. Processing such data has attracted extensive attention and many products and tools have emerged. Due to the existence of inevitable inconsistencies in data, such as erroneous data entries, natural noises, and different data representations in heterogeneous data sources, a recent trend is to study the processing of similarity queries. Tackling the inconsistencies with similarities benefits many applications yet imposes considerable technical challenges. This talk targets a series of fundamental problems in processing similarity queries on unstructured text documents, including similarity search and join, approximate entity recognition, and error-tolerant query autocompletion. The progress that has been made on this topic will be explored and a range of open problems will be identified."
-    bio: "Chuang Xiao is a postdoc research associate in the database group at Nagoya University leading by Prof. Yoshiharu Ishikawa. He received PhD degree from The University of New South Wales in 2010, under the supervision of Prof. Xuemin Lin and Prof. Wei Wang. Before that, he received bachelor's degree in Northeastern University, China, in 2005. His main research interests include similarity search, data integration, textual databases, and graph databases."
+    bio: "Chuan Xiao is a postdoc research associate in the database group at Nagoya University leading by Prof. Yoshiharu Ishikawa. He received PhD degree from The University of New South Wales in 2010, under the supervision of Prof. Xuemin Lin and Prof. Wei Wang. Before that, he received bachelor's degree in Northeastern University, China, in 2005. His main research interests include similarity search, data integration, textual databases, and graph databases."
     url: "https://sites.google.com/site/chuanxiao1983/"
   speaker6:
     anchor: es6
