@@ -28,7 +28,7 @@ Session 1 (Database session):
     url: "/speakers.html#is2"
   talk5:
     time: 11:25-12:00
-    title: "Relational Data Analysis Tensor Decomposition"
+    title: "Relational Data Analysis by Tensor Decomposition"
     speaker: "Dr. Kohei Hayashi"
     url: "/speakers.html#es4"
 
