@@ -65,7 +65,7 @@ Session 3 (Human Computer Interaction session):
     url: "/speakers.html#is4"
   talk2:
     time: 15:55-16:30
-    title: "WithYou – A Communication System to Provide Out Together Feeling"
+    title: "A Remote Communication System to Provide \"Out Together Feeling\""
     speaker: "Mr. Ching-Tzun Chang"
     url: "/speakers.html#is5"
   talk3:
@@ -74,16 +74,18 @@ Session 3 (Human Computer Interaction session):
     speaker: "Mr. Mohsin Ali Memon"
     url: "/speakers.html#is6"
   talk4:
-    time: 17:05-17:40
+    time: 17:05-17:50
     title: "GaussSense: Portable and Occlusion-free Near-surface Object Tracking Using Magnetic Sensor Grid"
     speaker: "Mr. Rong-Hao Liang"
     url: "/speakers.html#es3"
 
 Closing:
-  talk:
-    time: 17:40-17:45
+  talk1:
+    time: 17:50-17:55
+    title: Final Question/Answer Session for speakers
+  talk2:
+    time: 17:55-18:00
     title: Closing Speech by Co-Chair
-    speaker:
 
 Banquet *** Invited Only ***:
   talk:
