@@ -4,6 +4,7 @@ title: Program
 
 <div>
   <h1><%= t('link.program') %></h1>
+  <p><%= link_to t('program.booklet.title'), set_prefix( t('program.booklet.url') ) %></p>
 
   <% data.program.each do |session,talks| %>
     <h2><%= session %></h2>

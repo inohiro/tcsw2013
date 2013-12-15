@@ -29,11 +29,8 @@ en:
   content:
     datetitle: "Date"
   program:
-    tbd: "The details of program will be updated later."
+    booklet:
+      title: "Download bookelet from here"
+      url: "/files/booklet.pdf"
   about_tcsw: "TCSW (Tsukuba CS Workshop) is an international workshop organized by the graduate students of the Computer Science Department of University of Tsukuba, with the support of the university fund for innovative education."
-  speaker:
-    n1:
-      name: "Hiroyuki Inoue"
-      affil: "University of Tsukuba"
-      title: "An ETL Framework for Online Analytical Processing of LOD"
 

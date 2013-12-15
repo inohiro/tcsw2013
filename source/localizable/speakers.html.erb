@@ -4,7 +4,8 @@ title: Speakers
 
 <div>
   <h1><%= t('link.speakers') %></h1>
-
+  <p><%= link_to t('program.booklet.title'), set_prefix( t('program.booklet.url') ) %></p>
+  
   <ul>
     <% data.speakers.each do |type,speakers| %>
       <li>

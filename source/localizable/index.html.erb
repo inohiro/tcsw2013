@@ -10,7 +10,7 @@ title: Top
     <p>
       <%= current.text %>
       <% if current.link %>
-	<%= link_to current.link.title, current.link.url %>
+	<%= link_to current.link.title, set_prefix( current.link.url ) %>
       <% end %>
     </p>
   <% end %>

@@ -30,6 +30,8 @@ big data\" です．"
   content:
     datetitle: "開催日"
   program:
-    tbd: "プログラムの詳細は決まり次第掲載いたします．"
+    booklet:
+      title: "ブックレットのダウンロードはこちら"
+      url: "/files/booklet.pdf"
   about_tcsw: "筑波CSワークショップ（TCSW）は筑波大学CS専攻の学生が主体となってオーガナイズする国際ワークショップであり，大学本部（革新的教育支援プログラム）の支援を受けています．"
 
