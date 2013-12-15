@@ -4,9 +4,15 @@ title: Top
 
 <div>
   <h1><%= t('whats_new') %></h1>
-  <% data.whatsnew.each do |date,thing| %>
+  <% data.whatsnew.each do |date,entry| %>
+    <% current = entry[I18n.locale.to_s] %>
     <h2><%= date %></h2>
-    <p><%= thing[I18n.locale.to_s] %></p>
+    <p>
+      <%= current.text %>
+      <% if current.link %>
+	<%= link_to current.link.title, current.link.url %>
+      <% end %>
+    </p>
   <% end %>
 </div>
 

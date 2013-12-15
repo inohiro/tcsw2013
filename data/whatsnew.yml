@@ -1,7 +1,26 @@
 ---
+2013/12/16:
+  ja:
+    text: ブックレット（PDF版）をアップロードしました
+    link:
+      title: ダウンロードはこちらから
+      url: "/files/booklet.pdf"
+  en:
+    text: We uploaded the bookpet (PDF format)
+    link:
+      title: Download from here
+      url: "/files/booklet.pdf"
 2013/12/10:
-  ja: プログラムを更新しました．講演者ページを設置しました
-  en: Program page was updated. Speakers page was added
+  ja:
+    text: プログラムを更新しました．講演者ページを設置しました
+    link:
+  en:
+    text: Program page was updated. Speakers page was added
+    link:
 2013/12/01:
-  ja: ホームページを公開しました
-  en: This page was opened
+  ja:
+    text: ホームページを公開しました
+    link:
+  en:
+    text: This page was opened
+    link:
