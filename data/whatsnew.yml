@@ -6,10 +6,17 @@
       title: ダウンロードはこちらから
       url: "/files/booklet.pdf"
   en:
-    text: We uploaded the bookpet (PDF format)
+    text: We uploaded the booklet (PDF format)
     link:
       title: Download from here
       url: "/files/booklet.pdf"
+2013/12/12:
+  ja:
+    text: プログラムを更新しました
+    link:
+  en:
+    text: Program page was updated
+    link:
 2013/12/10:
   ja:
     text: プログラムを更新しました．講演者ページを設置しました
