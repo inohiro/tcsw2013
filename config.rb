@@ -71,8 +71,11 @@ configure :build do
   # Use relative URLs
   # activate :relative_assets
 
-  PREFIX = "/~inohiro/tcsw2013/" # for KDE/~inohiro
-  # PREFIX = '/tcsw2013/' # for CS Server
+  if ENV['TARGET'] == 'kde'
+    PREFIX = "/~inohiro/tcsw2013/" # for KDE/~inohiro
+  else
+    PREFIX = '/tcsw2013/' # for CS Server
+  end
 
   # Or use a different image path
   set :http_prefix, PREFIX
